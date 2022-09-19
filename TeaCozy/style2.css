@@ -1,0 +1,29 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(136, 133, 131);
+    text-align: center;
+    opacity: 0.9;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-top: 0%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    float: left;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    float: right;
+    text-align: center;
+}

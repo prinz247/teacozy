@@ -1,0 +1,182 @@
+* {
+    font-family: Helvetica, sans-serif;
+    background-color: black; 
+    opacity: 0.9;
+    color: seashell;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+h2 {
+    font-size: 30px;
+}
+
+/*header styling */
+header {
+    position: sticky;
+    top:0;
+    width: 100%;
+}
+.nav-container {
+    display: flex;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header li{
+    list-style: none;
+    padding: 0px 15px;
+    font-size: 22px;
+}
+
+.navigation {
+    display:inline-flex;
+    text-decoration: underline;
+    align-items: center;
+}
+
+/*mission section*/
+
+.mission {
+    background-image: url("./resources/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin:0 auto;
+}
+.mission .text {
+    position: relative;
+    top: 300px; 
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.mission .text h2{
+    padding-top: 10px;
+    margin: 0px;
+}
+.mission h4 {
+    padding-bottom: 10px;
+}
+
+/* Menu */
+
+
+.Menu .text {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+/*.Menu .text h2 {
+    /*margin-bottom: 15px; 
+} */
+
+.Menu .images{
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.Menu .images img {
+    width: 300px;
+    height: 200px;
+   /* flex: 1 2 300px; */
+}
+
+figure {
+    padding: 10px;
+}
+figcaption{
+    text-align: center;
+    margin-top: 10px;
+} 
+
+/* Location */
+
+.Location {
+    background-image: url("./resources/img-locations-background.jpg");
+    height: 550px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.Location h2 {
+    text-align: center;
+    background-color: transparent;
+    padding-top: 80px;
+}
+
+.Location .areas{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+ .down  {
+    width: 300px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.east {
+    width: 300px;
+    text-align: center;
+    margin-right: 40px;
+}
+.oak {
+    width: 300px;
+    text-align: center;
+}
+.areas h3, .areas p{
+    padding: 10px 0px;
+}
+
+.areas h3 {
+    font-weight: 900;
+}
+
+.down, .east, .oak {
+    opacity: 1;
+    flex: 1 2, 300;
+}
+
+
+/* footer */
+
+.contact {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.contact h2, .contact h5 {
+    margin-bottom: 30px;
+}
+
+.contact p {
+    margin-bottom: 50px;
+}
+
+p span{
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
